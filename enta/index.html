@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+
+<!---------------------------------
+HEAD
+le informazioni sull'intestazione della pagina
+----------------------------------->
+
+
+<head>
+    <!-- TITOLO -->
+    <title>CV Template</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <!-- CSS AGGIUNTIVO -->
+    <!-- NB il CSS che referenzio dopo sovrascrive quello che referenzio prima
+    quindi se chiamo delle classi nello stesso modo del primo nel secondo CSS
+    le sovrascrivo solo per quegli attributi che definisco
+  -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<!---------------------------------
+BODY
+Il contenuto della pagina
+----------------------------------->
+<body>
+
+
+    <div class="container maincontainer">
+
+
+      <!---------------------------------
+      INTESTAZIONE
+      In questa sezione l'intestazione della pagina visibile; possiamo mettere uno sfondo, o regolarne la grandezza con il CSS
+      ----------------------------------->
+
+
+        <div class="jumbotron"> <!------------ qui se provate a riscrivere la classe jumbotron nel file style.css, potreste aggiungere uno sfondo per esempio-->
+            <!--
+            I miei dati
+            Qui possiamo inserire una nostra foto, il nostro nome e un titolo
+            -->
+            <div class="row intestazione">
+                <!--
+                usando il template di bootstrap, questa immagine, la nostra foto, ha i bordi ed e' responsive
+                -->
+                <div class="col-sm-6">
+                  <img class="img-thumbnail img-responsive" max-width="300" src="E:/CodeLikeAGirl/Enrica_Taddei/immagini/Foto rosa.jpg">
+                </div>
+                <div class="col-sm-6">
+                  <h1 >Enrica Taddei (Chicca)</h1>
+                  <h3 >Studentessa</h3>
+
+                  <br><br><br>
+
+                  <p class="cta"> <a href= "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwicvNfRz7HiAhUMCuwKHQFBCxcQjRx6BAgBEAU&url=http%3A%2F%2Fjewel925.com%2Fsmile-2%2F&psig=AOvVaw3QGecZ4C9CP5GVh1KjAYJc&ust=1558699868419202"class="btn btn-primary btn-lg" >Sorrisi gratis! &raquo;</a> </p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!---------------------------------
+        COLONNA: col1
+        questo e' il primo div con alcune sezioni al suo interno
+        utilizzando il nome della sua classe col1 e scrivendo CSS specifico, posso modificare la sua apparenza
+        ----------------------------------->
+
+
+
+        <div class="row">
+        <div class="col-sm-12">
+
+          <div class="container col1">
+              <!--
+              I miei contatti
+              -->
+<div class="row">
+              <div class="contact-container container-block col-sm-4">
+                  <ul class="list contact-list">
+                      <li><a href="twitterlink" target="_blank"  >@chicca</a> (twitter)</li>
+                      <li><a href="instagramlink" target="_blank"  >@chicca_co2</a> (instagram)</li>
+                  </ul>
+
+              </div>
+              <div class="col-sm-8">
+                <div class="container col2">
+
+                    <section class="section summary-section">
+                        <h2 class="section-title">Una mia grande passione</h2>
+                        <div class="summary">
+                            <p><i>"Le stelle? Rimandano al destino dell'uomo" </i> Bersanelli</p>
+                              <p> Una grande passione che ho fin da piccola è quella per l'universo. Mi ha sempre affascinato lo spazio infinito intorno a noi e l'ordine presente.</p>
+                          <P> Ogni volta che ho del tempo libero approfondisco le mie conoscenze nell'ambito dell'astronomia.<p>
+                              <div class="row">
+
+                                <div class="col-sm-4 prog1">
+                                 <p>Nell'estate 2018 ho avuto la possibilità di essere partecipe di una mostra sugli Esopianeti durante il Meeting di Rimini. Facendo conoscenza anche di grandi ricercatori come Bersanelli (presente nella foto) e Battiston. </p>
+                                       <img src="E:/CodeLikeAGirl/Enrica_Taddei/immagini/Bersanelli.jpg" class="img-thumbnail img-responsive" max-width="50">
+                                </div>
+                                <div class="col-sm-4 prog2">
+                                <p> Durante il viaggio d'istruzione nel Marzo 2019 a Monaco, ho avuto la possibilità di visitare l'istituto di ricerca Max Planck e di conoscere alcuni ricercatori che ci lavorano</p>
+                                 <img src="E:/CodeLikeAGirl/Enrica_Taddei/immagini/Pianeti.jpg" class="img-thumbnail img-responsive" max-width="70">
+                                </div>
+                                <div class="col-sm-4 prog2">
+                                <p> Navigando su youtube ho scoperto un ragazzo molto appasionato di astronomia che espone le nuove scoperte in ambito astrofisico</p>
+                                <iframe width="210"
+                                src="https://www.youtube.com/embed/w-5UysMhes0"> </iframe>
+                                </div>
+                        </div>
+                    </section>
+      </div>
+      </div>
+
+</div>
+</div>
+</div>
+</div>
+
+              <!--
+              I miei studi
+              -->
+<div class="row">
+<div class="col-sm-4"
+
+  <div class="lingue">
+      <h2 class="section-title">Cosa faccio nel tempo libero:</h2>
+      <ul class="lingueli">
+          <li>Esco con gli amici, o sto con la mia famiglia</li>
+          <li>Leggo</li>
+          <li>Fotografo</li>
+          <li> Cucino</li>
+      </ul>
+  </div>
+  <div class="col-sm-8">
+  <div class="studi">
+      <h2 class="section-title">Libri preferiti</h2>
+
+
+      <!-- Elemento 1-->
+      <ul class="education">
+          <li class="nomeed"><b>Orgoglio e pregiudizio</b></li>
+          <li class="doveed"><b>Genere</b>: classico</li>
+          <li class="descrizioneed"><b>Citazione preferita del libro</b>:<i> L'orgoglio [...] è un difetto comune, credo. Anzi, stando a tutto ciò che ho letto, sono convinta che sia comunissimo, che la natura umana vi sia particolarmente incline e che ben pochi non coltivino un certo compiacimento per qualche loro qualità, reale o immaginaria che sia. Vanità e orgoglio sono cose molto diverse, benché le due parole siano spesse usate come sinonimi. Si può essere orgogliosi senza essere vanitosi. L'orgoglio si riferisce più all'opinione che abbiamo di noi stessi, la vanità a quella che si vorrebbe che gli altri avessero di noi.</i></li>
+      </ul>
+
+      <!-- Elemento 2-->
+
+      <ul class="education">
+          <li class="nomeed"><b>Chiedimi chi sono </b></li>
+          <li class="doveed"><b> Genere</b>: romanzo</li>
+          <li class="descrizioneed"><b>Motivo per cui mi piace</b>: è stato il primo libro che ho letto seriamente ed attraverso cui ho capito la mia passione per la lettura!</li>
+      </ul>
+  </div>
+</div>
+
+
+  <!--
+  Lingue che parlo
+  -->
+
+
+</div>
+
+
+          </div>
+        </div>
+
+        <!---------------------------------
+        COLONNA: col2
+        questo e' il secondo div con alcune sezioni al suo interno
+        utilizzando il nome della sua classe col2 e scrivendo CSS specifico, posso modificare la sua apparenza
+        ----------------------------------->
+<div class="container maincontainer">
+
+              <section class="progetti">
+                <h2 class="section-title">Progetti per l'estate</h2>
+                <div class="row">
+
+                  <div class="col-sm-4 prog1">
+                   <p>1. Viaggiare in città italiane </p>
+                         <img src="E:/CodeLikeAGirl/Enrica_Taddei/immagini/città.jpg" class="img-thumbnail img-responsive" max-width="50">
+                  </div>
+                  <div class="col-sm-4 prog2">
+                  <p>2. Imparare a fare windsurf</p>
+                   <img src="E:/CodeLikeAGirl/Enrica_Taddei/immagini/windsurf.jpg" class="img-thumbnail img-responsive" max-width="70">
+                  </div>
+                  <div class="col-sm-4 prog3">
+                      <p>3. Sperimentare ricette nuove, anche internazionali</p>
+                       <img src="E:/CodeLikeAGirl/Enrica_Taddei/immagini/recipes.jpg" class="img-thumbnail img-responsive" max-width="50">
+                  </div>
+
+                </div>
+
+              </section>
+
+              <section class="passioni">
+                  <h2 class="section-title">Viaggi che mi sono piaciuti</h2>
+
+                  <div class="row">
+                    <div class="col-sm-6 pass1">
+                        <img src="E:/CodeLikeAGirl/Enrica_Taddei/immagini/foto_budapest.jpg" class="img-thumbnail img-responsive" max-width="50">
+                        <p>Viaggio d'istruzione a Budapest</p>
+                        <p>Marzo 2018</p>
+                    </div>
+                    <div class="col-sm-6 pass2">
+                      <img src="E:/CodeLikeAGirl/Enrica_Taddei/immagini/sagrada_familia1.jpg" class="img-thumbnail img-responsive" max-width="50">
+                        <p>Viaggio con la mia famiglia ed amici a Barcellona</p>
+                        <p>Dicembre 2012</p>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-6 pass1">
+                          <img src="E:/CodeLikeAGirl/Enrica_Taddei/immagini/Venezia.jpg" class="img-thumbnail img-responsive" max-width="50">
+                          <p>Viaggio a Venezia con le amiche Venezia</p>
+                          <p> Novembre 2017 </p>
+                      </div>
+                      <div class="col-sm-6 pass2">
+                        <img src="E:/CodeLikeAGirl/Enrica_Taddei/immagini/Pisa.jpg" class="img-thumbnail img-responsive" max-width="50">
+                          <p>Viaggio con la mia famiglia a Pisa</p>
+                          <p>Aprile 2017</p>
+                      </div>
+
+                  </div>
+              </section>
+
+
+          </div>
+      </div>
+    </div>
+</body>
+</html>
