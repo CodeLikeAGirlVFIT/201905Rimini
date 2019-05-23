@@ -3,7 +3,7 @@ Qui modifico tutto il body del mio html
 **************/
 
 body{
-   background-color:#114444; background-image: url("E:/CodeLikeAGirl/Chiara Pacelli/sfondo3.jpg"); background-size: cover
+   background-color:#114444; background-image: url("sfondo3.jpg"); background-size: cover
 }
 
 
@@ -22,7 +22,7 @@ Qui vado a definire il contenirore del mio contenuto
 intestazione
 **************/
 
-.jumbotron{ background-image: url("E:/CodeLikeAGirl/Chiara Pacelli/sfondo3.jpg"); background-size: cover
+.jumbotron{ background-image: url("sfondo3.jpg"); background-size: cover
 
 }
 
