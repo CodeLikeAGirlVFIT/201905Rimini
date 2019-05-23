@@ -1,0 +1,66 @@
+/**************
+Qui modifico tutto il body del mio html
+**************/
+
+body{
+  background-color:white;
+}
+
+
+/**************
+Qui vado a definire il contenirore del mio contenuto
+**************/
+
+.maincontainer{
+  background-color:#a4f9f4;
+  color: inherit;
+}
+
+
+
+/**************
+intestazione
+**************/
+h1{color:#3065ba}
+h2{color:#6d99e0s}
+h4{color:#35a2c4}
+h3 {color:#3fa8a5}
+jumbotron{background-color: #8cd1cf}
+
+.intestazione h1{
+  font-size:30pt;
+  font-weight:bold;
+
+}
+
+
+.intestazione h3{
+  font-size:20pt;
+  font-style:italic;
+}
+
+.intestazione h4{
+  font-size:10pt;
+}
+
+.intestazione .cta{
+  color:#ffff;
+  padding-bottom:10pt;
+}
+
+/****************
+sezione educazione
+**********/
+
+
+.education{
+  list-style-type: none;
+}
+
+.nomeed{
+  font-weight: bold;
+}
+
+.doveed{
+  font-style: italic;
+}
