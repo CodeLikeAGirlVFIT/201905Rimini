@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+
+<!---------------------------------
+HEAD
+le informazioni sull'intestazione della pagina
+----------------------------------->
+
+
+<head>
+    <!-- TITOLO -->
+    <title>CV Template</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <!-- CSS AGGIUNTIVO -->
+    <!-- NB il CSS che referenzio dopo sovrascrive quello che referenzio prima
+    quindi se chiamo delle classi nello stesso modo del primo nel secondo CSS
+    le sovrascrivo solo per quegli attributi che definisco
+  -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<!---------------------------------
+BODY
+Il contenuto della pagina
+----------------------------------->
+<body>
+
+
+    <div class="container maincontainer">
+
+
+      <!---------------------------------
+      INTESTAZIONE
+      In questa sezione l'intestazione della pagina visibile; possiamo mettere uno sfondo, o regolarne la grandezza con il CSS
+      ----------------------------------->
+
+
+        <div class="jumbotron"> <!------------ qui se provate a riscrivere la classe jumbotron nel file style.css, potreste aggiungere uno sfondo per esempio-->
+            <!--
+            I miei dati
+            Qui possiamo inserire una nostra foto, il nostro nome e un titolo
+            -->
+            <div class="row intestazione">
+                <!--
+                usando il template di bootstrap, questa immagine, la nostra foto, ha i bordi ed e' responsive
+                -->
+                <div class="col-sm-6">
+                  <img class="img-thumbnail img-responsive" max-width="300" src="E:/CodeLikeAGirl/Laura.Carlini/immagini/Friedrich.jpeg">
+                </div>
+                <div class="col-sm-6">
+                  <h1 >Laura Carlini</h1>
+
+                  <h4> <i>"La vertigine non è paura di cadere, ma voglia di volare, mi fido di te"</i></h4>
+
+
+                  <br><br><br>
+                 <h4 class="jova">Clicca qui per la canzone completa</h4>
+                  <p class="cta"><a href="https://www.youtube.com/watch?v=LvG12qnnY_g" class="btn btn-primary btn-lg" >Botton! &raquo;</a></p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!---------------------------------
+        COLONNA: col1
+        questo e' il primo div con alcune sezioni al suo interno
+        utilizzando il nome della sua classe col1 e scrivendo CSS specifico, posso modificare la sua apparenza
+        ----------------------------------->
+
+
+
+        <div class="row">
+        <div class="col-sm-4">
+
+          <div class="container col1">
+              <!--
+              I miei contatti
+              -->
+
+              <div class="contact-container container-block">
+                  <ul class="list contact-list">
+                      <li><a href="https://twitter.com/" target="_blank"  >@LauraCarlini(twitter)</a></li>
+                      <li><a href="https://www.instagram.com/_laura.carlini_/?hl=it" target="_blank"  >@_laura.carlini_(instagram)</a></li>
+                  </ul>
+              </div>
+
+
+
+              <!--
+              I miei studi
+              -->
+
+              <div class="studi">
+                  <h2 class="section-title">Education</h2>
+
+
+
+                  <!-- Elemento 1-->
+                  <ul class="education">
+                      <li class="nomeed">Scuola secondaria di primo grado</li>
+                      <li class="doveed">Wladimiro Spallanzani</li>
+                    <!--  <li class="descrizioneed">Parole parole parole... descrizione descrizione descrizione... io sono un testo lungo a piacere!</li>1-->
+                  </ul>
+
+                  <!-- Elemento 2-->
+
+                  <ul class="education">
+                      <li class="nomeed">Scuola secondaria di secondo grado</li>
+                      <li class="doveed">Liceo Scientifico Paritario Georges Lemaitre</li>
+                    <!--  <li class="descrizioneed"></li>2-->
+                  </ul>
+                <h2 class="section-title"> Books </h2>
+                <ul>
+                  <li> "Il piccolo principe"</li>
+                  <li> "Oceano mare"</li>
+                  <li> "Storia di una ladra di libri" </li>
+              </div>
+
+
+
+              <!--
+              Lingue che parlo
+              -->
+
+              <div class="lingue">
+                  <h2 class="section-title">Languages</h2>
+                  <ul class="lingueli">
+                      <li>Italiano <span class="lang-desc">(Native)</span></li>
+                      <li>Inglese <span class="lang-desc">(B2 certificato)</span></li>
+                      <li>Spagnolo <span class="lang-desc">(Beginner)</span></li>
+                  </ul>
+              </div>
+
+
+
+          </div>
+        </div>
+
+        <!---------------------------------
+        COLONNA: col2
+        questo e' il secondo div con alcune sezioni al suo interno
+        utilizzando il nome della sua classe col2 e scrivendo CSS specifico, posso modificare la sua apparenza
+        ----------------------------------->
+
+        <div class="col-sm-8">
+          <div class="container col2">
+
+              <section class="section summary-section">
+                  <h2 class="section-title">About me</h2>
+                  <div class="summary">
+                      <p>Sono una studentessa, frequento il liceo scientifico ma preferisco le materie umanistiche, ad esempio storia dell'arte; nel tempo libero mi piace divertirmi con gli amici. Adoro cucinare, e, quando possibile mi cimento in nuovi piatti.</p>
+                  </div>
+              </section>
+
+
+
+              <section class="progetti">
+                <h2 class="section-title">Progetti</h2>
+                <div class="row">
+
+                  <div class="col-sm-6 prog1">
+                  <img src="https://images.trvl-media.com/hotels/2000000/1410000/1405900/1405888/1aed99da_z.jpg"class="E:/CodeLikeAGirl/Laura.Carlini/immagini/bora.bora.jpeg"width="250" height="187" >
+                      <p>Il mio grande sogno è quello di prendere un aereo per la Polinesia, Bora Bora.</p>
+                  </div>
+
+                  <!--<div class="col-sm-4 prog2">
+                      <p>Io sono l'esempio di un progetto, qui puoi inserire immagini e descrizioni e link</p>
+                  </div>  -->
+                  <div class="col-sm-6 prog3">
+                    <img src="https://d19r1twe1senfi.cloudfront.net/uploads/avr/image_event_online/image/9676a5a2-d642-447c-aae3-de40aae5a6dc/scaled_IMG_8870.JPG"class="E:/CodeLikeAGirl/Laura.Carlini/immagini/green.day.jpeg"width="200" height="200" >
+                      <p>Vorrei tanto imparare a suonare uno strumento, preferibilmente la chitarra elettrica o il basso.</p>
+                  </div>
+
+                </div>
+
+              </section>
+
+              <section class="passioni">
+                  <h2 class="section-title">Passioni</h2>
+
+                  <div class="row">
+                    <div class="col-sm-6 pass1">
+                        <img src="https://www.giallozafferano.it/images/ricette/205/20511/foto_hd/hd650x433_wm.jpg" class="E:/CodeLikeAGirl/Laura.Carlini/immagini.jpeg" width="162" height="108">
+                        <p>Uno dei miei hobbies preferiti è cucinare, soprattutto dolci.</p>
+                    </div>
+                    <div class="col-sm-6 pass2">
+                      <img src="https://www.tuttobaviera.it/wp-content/uploads/2016/10/neuschwanstein-baviera-.jpg" class="E:/CodeLikeAGirl/Laura.Carlini/immagini/castello.jpeg" width="200" height="181">
+                        <p>Viaggio spesso con la mia famiglia, in particolare all'estero. Questo è il castello di Neuschwanstein.</p>
+                    </div>
+
+                  </div>
+              </section>
+
+
+          </div>
+      </div>
+    </div>
+</body>
+</html>
