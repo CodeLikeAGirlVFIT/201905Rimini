@@ -1,0 +1,100 @@
+/**************
+Qui modifico tutto il body del mio html
+**************/
+
+body{
+  background-color:#d7b2e8;
+}
+
+
+/**************
+Qui vado a definire il contenirore del mio contenuto
+**************/
+
+.maincontainer{
+  background-color: rgba(255,255,255, 0.5);
+  color: inherit;
+}
+#matildetwitter {
+  width: inherit;
+  height: 300px;
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
+
+
+
+/**************
+intestazione
+**************/
+
+.jumbotron{ /*se volessi modificare lo sfondo della parte alta della pagina, dovrei scrivere qui*/
+background-color: #ebcbf4
+
+}
+
+.intestazione h1{
+font-family: script;
+  font-size:30pt;
+  font-weight:bold;
+  color: #13c8d8
+
+}
+
+ .p h2  {color: #cea1ea ;}
+
+.intestazione h3{
+font-family: times;
+  font-size:20pt;
+  font-style:;
+  color:#bbf9c1
+;
+}
+
+.intestazione h4{
+font-family: sans-serif;
+  font-size:10pt;
+  color: #f9ee75
+  ;
+
+}
+
+.intestazione .cta{
+
+  padding-bottom:10pt;
+
+}
+
+.intestazione {color:#d858b8}
+
+.p {color:##d858b8}
+
+.li h2 {color: #cea1ea }
+
+/****************
+sezione educazione
+**********/
+.section-title {color: #20c5db}
+.p h2  {text color: #cea1ea }
+.lingueli { color: #cea1ea }
+.education{
+  list-style-type: none;
+  color:#cea1ea ;
+}
+
+.p  { color: #cea1ea }
+.nomeed{
+  font-weight: bold;
+  color: #cea1ea
+}
+
+.doveed{
+  font-style: italic;
+  color:#cea1ea
+}
+
+#p {
+  font-style: italic;
+  color:#cea1ea;
+}
