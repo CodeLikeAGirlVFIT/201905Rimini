@@ -1,0 +1,68 @@
+/**************
+Qui modifico tutto il body del mio html
+**************/
+
+body{
+  background-image: url("rosa.jpg");
+}
+
+
+/**************
+Qui vado a definire il contenirore del mio contenuto
+**************/
+
+.maincontainer{
+  background-color: rgba(255,255,255, 0.5);
+  color: inherit;
+}
+
+
+
+/**************
+intestazione
+**************/
+
+.jumbotron
+ {background-image: url("https://www.photohdx.com/images/2016/11/clean-pink-paper-texture-background.jpg");
+
+
+}
+
+.intestazione h1{
+  font-size:30pt;
+  font-weight:bold;
+}
+.lingue {margin-top: 100px}
+
+.intestazione h3{
+  font-size:20pt;
+  font-style:italic;
+}
+
+
+
+.intestazione h4{
+  font-size:30px;
+}
+
+.intestazione .cta{
+  color:#ffffff;
+  padding-bottom:10pt;
+}
+
+/****************
+sezione educazione
+**********/
+
+
+.education{
+  list-style-type: none;
+}
+
+.nomeed{
+  font-weight: bold;
+}
+
+.doveed{
+  font-style: italic;
+}
