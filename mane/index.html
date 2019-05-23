@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+
+<!---------------------------------
+HEAD
+le informazioni sull'intestazione della pagina
+----------------------------------->
+
+
+<head>
+    <!-- TITOLO -->
+    <title>CV Template</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <!-- CSS AGGIUNTIVO -->
+    <!-- NB il CSS che referenzio dopo sovrascrive quello che referenzio prima
+    quindi se chiamo delle classi nello stesso modo del primo nel secondo CSS
+    le sovrascrivo solo per quegli attributi che definisco
+  -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<!---------------------------------
+BODY
+Il contenuto della pagina
+----------------------------------->
+<body>
+
+
+    <div class="container maincontainer">
+
+
+      <!---------------------------------
+      INTESTAZIONE
+      In questa sezione l'intestazione della pagina visibile; possiamo mettere uno sfondo, o regolarne la grandezza con il CSS
+      ----------------------------------->
+
+
+        <div class="jumbotron"> <!------------ qui se provate a riscrivere la classe jumbotron nel file style.css, potreste aggiungere uno sfondo per esempio-->
+            <!--
+            I miei dati
+            Qui possiamo inserire una nostra foto, il nostro nome e un titolo
+            -->
+            <div class="row intestazione">
+                <!--
+                usando il template di bootstrap, questa immagine, la nostra foto, ha i bordi ed e' responsive
+                -->
+                <div class="col-sm-6">
+                  <img class="img-thumbnail img-responsive" max-width="300" src="http://www.ioarte.org/img/artisti/Franco-s__Prato-in-fiore_g.jpg">
+                </div>
+                <div class="col-sm-6">
+                  <h1 >Maria Neri</h1>
+                  <h3 >
+                  </h3>
+                  <h4><i>Provare per credere</i></h4>
+
+
+                  <br><br><br>
+
+                "E perché la sua conoscenza prima è imperfetta per non essere esperta né dottrinata, piccioli beni le paiono grandi, e però da quelli comincia prima a desiderare. Onde vedemo li parvuli desiderare massimamente un pomo; e poi, più procedendo, desiderare uno augellino; e poi, più oltre, desiderare bel vestimento; e poi lo cavallo; e poi una donna; e poi ricchezza non grande, e poi grande, e poi più. E questo incontra perché in nulla di queste cose truova quella che va cercando, e credela trovare più oltre."
+                </div>
+
+            </div>
+        </div>
+
+
+        <!---------------------------------
+        COLONNA: col1
+        questo e' il primo div con alcune sezioni al suo interno
+        utilizzando il nome della sua classe col1 e scrivendo CSS specifico, posso modificare la sua apparenza
+        ----------------------------------->
+
+
+
+        <div class="row">
+        <div class="col-sm-4">
+
+          <div class="container col1">
+              <!--
+              I miei contatti
+              -->
+
+              <div class="contact-container container-block">
+                  <ul class="list contact-list">
+
+                  </ul>
+              </div>
+
+
+
+              <!--
+              I miei studi
+              -->
+
+              <div class="studi">
+
+                      <li class="descrizioneed"></li>
+                  </ul>
+
+                  <!-- Elemento 2-->
+
+
+              </div>
+
+
+
+              <!--
+              Lingue che parlo
+              -->
+
+              <div class="lingue">
+                  <h2 class="section-title">Tempo libero</h2>
+                  <ul class="lingueli">
+                      <li>Leggo <span class="lang-desc"></span></li>
+                      <li>Corro<span class="lang-desc"></span></li>
+                      <li>Pesco<span class="lang-desc"></span></li>
+                  </ul>
+                  <img src="Nuova cartella/pesca.jpg" class="img-thumbnail img-responsive" max-width="200">
+              </div>
+
+
+
+          </div>
+        </div>
+
+        <!---------------------------------
+        COLONNA: col2
+        questo e' il secondo div con alcune sezioni al suo interno
+        utilizzando il nome della sua classe col2 e scrivendo CSS specifico, posso modificare la sua apparenza
+        ----------------------------------->
+
+        <div class="col-sm-8">
+          <div class="container col2">
+
+              <section class="section summary-section">
+                  <h2 class="section-title">About me</h2>
+                  <div class="summary">
+                      <p>Mi piace tantissimo stare insime ai miei amici e alla mia famiglia. Sono solare e un po'matta,ma mi sta bene così. </p>
+
+                  </div>
+              </section>
+
+
+
+              <section class="progetti">
+                <h2 class="section-title">Progetti</h2>
+                <div class="row">
+
+                  <div class="col-sm-4 prog1">
+                  <p>Essere felice.</p>
+                      <img src="Nuova cartella/tramonto.jpg" class="img-thumbnail img-responsive" max-width="200">
+                  </div>
+                  <div class="col-sm-4 prog2">
+                      <p> Vedere cose belle.</p>
+                      <img src="Nuova cartella/meeting.jpg" class="img-thumbnail img-responsive" max-width="200">
+                  </div>
+                  <div class="col-sm-4 prog3">
+                      <p> Conoscere cose nuove.</p>
+                      <img src="Nuova cartella/roma.jpg" class="img-thumbnail img-responsive" max-width="200">
+                  </div>
+
+                </div>
+
+              </section>
+
+              <section class="passioni">
+                  <h2 class="section-title">Passioni</h2>
+
+                  <div class="row">
+                    <div class="col-sm-6 pass1">
+
+                      <img src="Nuova cartella/vito.jpg" class="img-thumbnail img-responsive" max-width="200">
+                      <p>Mi prendo cura delle persone...in tutti i modi che posso..</p>
+
+                  </div>
+                    <div class="col-sm-6 pass2">
+                     <img src="Nuova cartella/canto.jpg" class="img-thumbnail img-responsive" max-width="200">
+                     <p>Canto tantissimo e a scuarciagola..</p>
+
+    <div class="row">
+      <div class= "col-sm-12" >
+      <p>
+      Partecipare a questo corso è stato molto interessante,anche in prospettiva dell'alternanza scuola/lavoro, in quanto la conoscenza dell'informatica penso sia fondametale all'interno di un'azienda.
+    </p>
+  </div>
+</div>
+                    </div>
+
+                  </div>
+              </section>
+
+
+          </div>
+      </div>
+    </div>
+</body>
+</html>
