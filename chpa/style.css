@@ -56,9 +56,16 @@ sezione educazione
 }
 
 .nomeed{
-  font-weight: bold;
+  font-weight: bold; color: #801b82
 }
 
 .doveed{
   font-style: italic;
 }
+
+#PARAGRAFO { width: 100%}
+#twitter-div{
+  overflow-y: scroll;
+  height: 500px
+}
+b {color: #801b82}
